@@ -1,5 +1,6 @@
 import { Github } from 'lucide-react';
 import React from 'react';
+import './NavBar.css';
 import { NavLink } from 'react-router';
 
 const NavBar = () => {
@@ -15,8 +16,8 @@ const NavBar = () => {
                       <span className='font-bold'>HERO.IO</span>
                    </div>
 
-                   <div className='flex gap-8 font-semibold'>
-                      <NavLink>Home</NavLink>
+                   <div id='nav' className='flex gap-8 font-semibold max-sm:flex-col'>
+                      <NavLink to={"home"}>Home</NavLink>
                       <NavLink>Apps</NavLink>
                       <NavLink>Installation</NavLink>
                    </div>

@@ -7,6 +7,7 @@ import './App.jsx'
 import Root from './Components/Root';
 import NavBar from './Components/NavBar';
 import App from './App.jsx';
+import Home from './Components/Home.jsx';
 
 const router=createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router=createBrowserRouter([
     Component: Root,
     children: [
       { index: true, Component: App },
-      // { path: "settings", Component: Settings },
+      { path: "home", Component: Home}
     ],
   },
 ]);
