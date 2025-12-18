@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "ChatWave",
+      "photo": "/../assets/app1.webp",
+      "downloads": "10M+",
+      "rating": 4.6
+    },
+    {
+      "id": 2,
+      "name": "FitTrack",
+      "photo": "/../assets/app2.webp",
+      "downloads": "5M+",
+      "rating": 4.4
+    },
+    {
+      "id": 3,
+      "name": "FoodieGo",
+      "photo": "/../assets/app3.webp",
+      "downloads": "8M+",
+      "rating": 4.5
+    },
+    {
+      "id": 4,
+      "name": "MusicFlow",
+      "photo": "/../assets/app4.webp",
+      "downloads": "20M+",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "StudySmart",
+      "photo": "/../assets/app5.webp",
+      "downloads": "3M+",
+      "rating": 4.3
+    },
+    {
+      "id": 6,
+      "name": "TravelMate",
+      "photo": "/../assets/app6.webp",
+      "downloads": "6M+",
+      "rating": 4.5
+    },
+    {
+      "id": 7,
+      "name": "ShopEasy",
+      "photo": "/../assets/app2.webp",
+      "downloads": "15M+",
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "name": "NoteKeeper",
+      "photo": "/../assets/app3.webp",
+      "downloads": "2M+",
+      "rating": 4.2
+    }
+  ]
+  

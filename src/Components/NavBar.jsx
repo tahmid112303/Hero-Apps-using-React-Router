@@ -18,7 +18,7 @@ const NavBar = () => {
 
                    <div id='nav' className='flex gap-8 font-semibold max-sm:flex-col'>
                       <NavLink to={"home"}>Home</NavLink>
-                      <NavLink>Apps</NavLink>
+                      <NavLink to={"apps"}>Apps</NavLink>
                       <NavLink>Installation</NavLink>
                    </div>
 

@@ -5,9 +5,9 @@ import { RouterProvider } from "react-router/dom";
 import './index.css'
 import './App.jsx'
 import Root from './Components/Root';
-import NavBar from './Components/NavBar';
 import App from './App.jsx';
 import Home from './Components/Home.jsx';
+import MyApps from './Components/MyApps.jsx';
 
 const router=createBrowserRouter([
   {
@@ -15,7 +15,10 @@ const router=createBrowserRouter([
     Component: Root,
     children: [
       { index: true, Component: App },
-      { path: "home", Component: Home}
+      { path: "home",
+        loader: ()=>fetch("TrendingAppData.json"),
+      Component: Home},
+      {path: "apps", Component: MyApps}
     ],
   },
 ]);

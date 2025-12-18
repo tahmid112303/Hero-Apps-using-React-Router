@@ -1,4 +1,6 @@
 import React from 'react';
+import { useLoaderData } from 'react-router';
+import TrendApp from './TrendApp';
 
 const Home = () => {
     const visitGooglePlay=()=>{
@@ -8,6 +10,8 @@ const Home = () => {
     const visitAppStore=()=>{
         window.open("https://www.apple.com/app-store/","_blank")
     }
+
+    const appData=useLoaderData()
     return (
         <div>
             <h1 className='text-7xl text-center font-bold mt-20'>We Build <br /> 
@@ -66,6 +70,14 @@ const Home = () => {
             <div className='mt-20 mb-10'>
                 <h1 className='font-bold text-5xl text-center'>Trending Apps</h1><br />
                 <p className='text-[#627382] text-center font-bold'>Explore All Trending Apps on the Market developed by us</p>
+            </div>
+
+            <div className='grid grid-cols-4 gap-8 mx-auto w-fit'>
+                {appData.map(data=><TrendApp data={data} key={data.id}></TrendApp>)}
+            </div>
+
+            <div className='flex justify-center items-center'>
+            <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white font-bold mt-10 w-36.25 h-12">Show All</button>
             </div>
         </div>
     );
