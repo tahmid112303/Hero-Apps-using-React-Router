@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
+import { useLoaderData, useNavigate } from 'react-router';
 import TrendApp from './TrendApp';
 
 const Home = () => {
@@ -10,6 +10,8 @@ const Home = () => {
     const visitAppStore=()=>{
         window.open("https://www.apple.com/app-store/","_blank")
     }
+
+    const navigate=useNavigate()
 
     const appData=useLoaderData()
     return (
@@ -77,7 +79,9 @@ const Home = () => {
             </div>
 
             <div className='flex justify-center items-center'>
-            <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white font-bold mt-10 w-36.25 h-12">Show All</button>
+            <button onClick={()=>navigate("/apps")} className="btn 
+            bg-linear-to-r from-[#632EE3] to-[#9F62F2]
+             text-white font-bold mt-10 w-36.25 h-12">Show All</button>
             </div>
         </div>
     );
