@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "name": "WhatsApp",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+      "downloads": "5B+",
+      "rating": 4.4
+    },
+    {
+      "id": 2,
+      "name": "Facebook",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg",
+      "downloads": "5B+",
+      "rating": 4.1
+    },
+    {
+      "id": 3,
+      "name": "Instagram",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png",
+      "downloads": "5B+",
+      "rating": 4.3
+    },
+    {
+      "id": 4,
+      "name": "YouTube",
+      "photo": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+      "downloads": "10B+",
+      "rating": 4.2
+    },
+    {
+      "id": 5,
+      "name": "Spotify",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1161px-Spotify_icon.svg.png",
+      "downloads": "1B+",
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "name": "Telegram",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+      "downloads": "1B+",
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "name": "Google Maps",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Google_Maps_icon_%282015-2020%29.svg/2048px-Google_Maps_icon_%282015-2020%29.svg.png",
+      "downloads": "10B+",
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "name": "TikTok",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tiktok_icon.svg/2048px-Tiktok_icon.svg.png",
+      "downloads": "3B+",
+      "rating": 4.3
+    },
+    {
+      "id": 9,
+      "name": "Netflix",
+      "photo": "https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940",
+      "downloads": "1B+",
+      "rating": 4.4
+    },
+    {
+      "id": 10,
+      "name": "Snapchat",
+      "photo": "https://cdn-icons-png.freepik.com/256/15707/15707923.png?semt=ais_white_label",
+      "downloads": "1B+",
+      "rating": 4.1
+    },
+    {
+      "id": 11,
+      "name": "LinkedIn",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+      "downloads": "1B+",
+      "rating": 4.3
+    },
+    {
+      "id": 12,
+      "name": "Amazon",
+      "photo": "https://www.shutterstock.com/image-vector/amazon-logo-editorial-icon-isolated-600nw-2333488123.jpg",
+      "downloads": "1B+",
+      "rating": 4.2
+    },
+    {
+      "id": 13,
+      "name": "Gmail",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png",
+      "downloads": "10B+",
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "name": "Google Drive",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png",
+      "downloads": "10B+",
+      "rating": 4.4
+    },
+    {
+      "id": 15,
+      "name": "Zoom",
+      "photo": "https://static.vecteezy.com/system/resources/previews/053/574/892/non_2x/zoom-icon-illustration-in-square-background-free-vector.jpg",
+      "downloads": "1B+",
+      "rating": 4.2
+    },
+    {
+      "id": 16,
+      "name": "Pinterest",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+      "downloads": "1B+",
+      "rating": 4.4
+    },
+    {
+      "id": 17,
+      "name": "PayPal",
+      "photo": "https://cdn-icons-png.flaticon.com/512/174/174861.png",
+      "downloads": "500M+",
+      "rating": 4.3
+    },
+    {
+      "id": 18,
+      "name": "Microsoft Teams",
+      "photo": "https://cdn-icons-png.flaticon.com/512/906/906349.png",
+      "downloads": "1B+",
+      "rating": 4.2
+    },
+    {
+      "id": 19,
+      "name": "Uber",
+      "photo": "https://cdn.freebiesupply.com/logos/large/2x/uber-15-logo-png-transparent.png",
+      "downloads": "1B+",
+      "rating": 4.1
+    },
+    {
+      "id": 20,
+      "name": "Duolingo",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJhyOBkI9m73a63Ayf9uQFQdDrLA5aTSJahQ&s",
+      "downloads": "500M+",
+      "rating": 4.7
+    }
+  ]
+  

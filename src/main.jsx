@@ -18,7 +18,9 @@ const router=createBrowserRouter([
       { path: "home",
         loader: ()=>fetch("TrendingAppData.json"),
       Component: Home},
-      {path: "apps", Component: MyApps}
+      {path: "apps",
+      loader: ()=>fetch("AllAppData.json"),
+      Component: MyApps}
     ],
   },
 ]);

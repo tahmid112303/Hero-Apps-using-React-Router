@@ -1,10 +1,10 @@
 import React from 'react';
 
-const TrendApp = ({data}) => {
+const MyApp = ({data}) => {
     return (
-        <div className='w-70 p-6 bg-white rounded-xl'>
+        <div className='w-72 p-6 bg-white rounded-xl'>
             <div className='flex justify-center items-center'>
-                 <div className='h-62.5 w-62.5 bg-cover bg-center rounded-xl' style={{backgroundImage: `url(${data.photo})`}}></div>
+                 <div className='h-70 w-70 bg-cover bg-center rounded-xl' style={{backgroundImage: `url(${data.photo})`,height: "250px", width: "250px"}}></div>
             </div>
 
             <div className='text-[#001931] text-[20px] text-center mt-4'>{data.name}</div>
@@ -25,4 +25,4 @@ const TrendApp = ({data}) => {
     );
 };
 
-export default TrendApp;
+export default MyApp;
