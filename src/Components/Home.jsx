@@ -23,14 +23,14 @@ const Home = () => {
 
             <div className='font-semibold flex justify-center items-center gap-5 mt-10'>
                 <div onClick={visitGooglePlay} className='flex gap-3 items-center p-4 border
-                 border-[#D2D2D2] w-50 h-14 cursor-pointer rounded-sm'>
+                 border-[#D2D2D2] w-50 h-14 cursor-pointer rounded-sm hover:bg-sky-200'>
 
                     <span><img className='h-8 w-8' src="/../assets/play.png" alt="" /></span>
 
                     <span>Google Play</span>
                 </div>
 
-                <div onClick={visitAppStore} className='flex gap-3 items-center p-4 border
+                <div onClick={visitAppStore} className='flex gap-3 items-center p-4 border hover:bg-sky-200 
                  border-[#D2D2D2] w-50 h-14 cursor-pointer rounded-sm'>
 
                 <span><img className='h-8 w-8' src="/../assets/app-store.png" alt="" /></span>

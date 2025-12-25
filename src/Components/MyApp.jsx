@@ -1,10 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 
 const MyApp = ({data}) => {
+    const navigate=useNavigate()
     return (
-        <div className='w-72 p-6 bg-white rounded-xl'>
+        <div className='w-72 p-6 bg-white rounded-xl cursor-pointer hover:bg-pink-200 hover:font-bold' onClick={()=>navigate(`/apps/${data.id}`)}>
             <div className='flex justify-center items-center'>
-                 <div className='h-70 w-70 bg-cover bg-center rounded-xl' style={{backgroundImage: `url(${data.photo})`,height: "250px", width: "250px"}}></div>
+                <img className='w-[250px] h-[250px] rounded-2xl' src={data.photo} alt="" />
             </div>
 
             <div className='text-[#001931] text-[20px] text-center mt-4'>{data.name}</div>

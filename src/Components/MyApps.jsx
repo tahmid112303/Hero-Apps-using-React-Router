@@ -4,7 +4,7 @@ import MyApp from './MyApp';
 
 const MyApps = () => {
     const appData=useLoaderData()
-    console.log(appData);
+    
     return (
         <div>
             <div className='mt-10 mb-12 flex flex-col items-center justify-center gap-5'>

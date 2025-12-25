@@ -8,19 +8,44 @@ import Root from './Components/Root';
 import App from './App.jsx';
 import Home from './Components/Home.jsx';
 import MyApps from './Components/MyApps.jsx';
+import AppDetail from './Components/AppDetail.jsx';
+import ErrorPage from './Components/ErrorPage.jsx';
+import MyAppDetail from './Components/MyAppDetail.jsx';
 
 const router=createBrowserRouter([
   {
     path: "/",
     Component: Root,
     children: [
-      { index: true, Component: App },
+      { index: true, Component: ErrorPage },
+
       { path: "home",
-        loader: ()=>fetch("TrendingAppData.json"),
-      Component: Home},
+        loader: ()=>fetch('TrendingAppData.json'),
+      Component: Home
+      },
+
+      {
+        path: "home/:id",
+        loader: async ({ params }) => {
+          const res = await fetch("/TrendingAppData.json");
+          const data = await res.json();
+          return data.find(app => app.id == params.id);
+        },
+        Component: AppDetail
+      },
+
       {path: "apps",
       loader: ()=>fetch("AllAppData.json"),
-      Component: MyApps}
+      Component: MyApps},
+
+      { path: "apps/:id",
+        loader: async({params})=>{
+          const res =await fetch("AllAppData.json");
+          const data=await res.json();
+          return data.find(app => app.id == params.id)
+        },
+        Component: MyAppDetail
+      }
     ],
   },
 ]);

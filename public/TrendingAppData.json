@@ -1,59 +1,82 @@
 [
-    {
-      "id": 1,
-      "name": "ChatWave",
-      "photo": "/../assets/app1.webp",
-      "downloads": "10M+",
-      "rating": 4.6
-    },
-    {
-      "id": 2,
-      "name": "FitTrack",
-      "photo": "/../assets/app2.webp",
-      "downloads": "5M+",
-      "rating": 4.4
-    },
-    {
-      "id": 3,
-      "name": "FoodieGo",
-      "photo": "/../assets/app3.webp",
-      "downloads": "8M+",
-      "rating": 4.5
-    },
-    {
-      "id": 4,
-      "name": "MusicFlow",
-      "photo": "/../assets/app4.webp",
-      "downloads": "20M+",
-      "rating": 4.7
-    },
-    {
-      "id": 5,
-      "name": "StudySmart",
-      "photo": "/../assets/app5.webp",
-      "downloads": "3M+",
-      "rating": 4.3
-    },
-    {
-      "id": 6,
-      "name": "TravelMate",
-      "photo": "/../assets/app6.webp",
-      "downloads": "6M+",
-      "rating": 4.5
-    },
-    {
-      "id": 7,
-      "name": "ShopEasy",
-      "photo": "/../assets/app2.webp",
-      "downloads": "15M+",
-      "rating": 4.6
-    },
-    {
-      "id": 8,
-      "name": "NoteKeeper",
-      "photo": "/../assets/app3.webp",
-      "downloads": "2M+",
-      "rating": 4.2
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "ChatWave",
+    "photo": "/../assets/app1.webp",
+    "downloads": "10M+",
+    "rating": 4.6,
+    "totalReviews": "520K+",
+    "developedBy": "WaveTech Solutions",
+    "description": "ChatWave is a modern messaging application designed for fast and smooth communication. It allows users to send instant messages, share images, videos, voice notes, and documents with ease. ChatWave focuses on simplicity and performance, making it suitable for both personal and casual professional use. The app includes group chats, message reactions, and real-time notifications to keep conversations engaging. With a clean interface and optimized data usage, ChatWave works well even on slower internet connections. Its reliable messaging system and user-friendly design make it a popular choice among users looking for a lightweight and efficient chat application."
+  },
+  {
+    "id": 2,
+    "name": "FitTrack",
+    "photo": "/../assets/app2.webp",
+    "downloads": "5M+",
+    "rating": 4.4,
+    "totalReviews": "310K+",
+    "developedBy": "HealthCore Labs",
+    "description": "FitTrack is a fitness and health tracking application that helps users maintain an active lifestyle. It allows users to track daily workouts, steps, calories burned, and overall fitness progress. FitTrack offers personalized goals, reminders, and progress reports to keep users motivated. The app is suitable for beginners as well as fitness enthusiasts. With an easy-to-use dashboard and clean design, FitTrack makes health tracking simple and effective. It encourages consistency and healthy habits through data-driven insights and regular activity monitoring."
+  },
+  {
+    "id": 3,
+    "name": "FoodieGo",
+    "photo": "/../assets/app3.webp",
+    "downloads": "8M+",
+    "rating": 4.5,
+    "totalReviews": "420K+",
+    "developedBy": "FoodieGo Technologies",
+    "description": "FoodieGo is a food discovery and delivery application designed for food lovers. Users can explore nearby restaurants, browse menus, and order meals easily. The app provides ratings, reviews, and recommendations to help users choose the best dining options. FoodieGo focuses on fast ordering and smooth navigation for a better user experience. With secure payments and real-time order tracking, it makes food ordering convenient and reliable. It is ideal for users who enjoy discovering new food options and ordering online."
+  },
+  {
+    "id": 4,
+    "name": "MusicFlow",
+    "photo": "/../assets/app4.webp",
+    "downloads": "20M+",
+    "rating": 4.7,
+    "totalReviews": "980K+",
+    "developedBy": "SoundWave Studio",
+    "description": "MusicFlow is a music streaming application that offers a wide range of songs across different genres and moods. Users can stream music online, create playlists, and discover new tracks based on listening habits. MusicFlow provides high-quality audio and a smooth playback experience. Its recommendation system helps users explore fresh music easily. With a modern interface and powerful search features, MusicFlow is suitable for casual listeners and music enthusiasts alike."
+  },
+  {
+    "id": 5,
+    "name": "StudySmart",
+    "photo": "/../assets/app5.webp",
+    "downloads": "3M+",
+    "rating": 4.3,
+    "totalReviews": "210K+",
+    "developedBy": "EduSmart Inc.",
+    "description": "StudySmart is an educational application designed to support students in their learning journey. It provides study materials, notes, quizzes, and progress tracking tools. StudySmart helps users organize their study schedules and improve productivity. The app is useful for exam preparation and daily learning. With a simple layout and focused features, StudySmart encourages effective learning habits and better time management for students of different levels."
+  },
+  {
+    "id": 6,
+    "name": "TravelMate",
+    "photo": "/../assets/app6.webp",
+    "downloads": "6M+",
+    "rating": 4.5,
+    "totalReviews": "360K+",
+    "developedBy": "TravelMate Solutions",
+    "description": "TravelMate is a travel assistance application that helps users plan and manage trips easily. It offers destination guides, travel tips, and itinerary planning features. Users can explore popular locations and keep track of travel plans in one place. TravelMate focuses on convenience and organization, making travel planning stress-free. It is ideal for both frequent travelers and occasional tourists."
+  },
+  {
+    "id": 7,
+    "name": "ShopEasy",
+    "photo": "/../assets/app2.webp",
+    "downloads": "15M+",
+    "rating": 4.6,
+    "totalReviews": "740K+",
+    "developedBy": "EasyCommerce Ltd.",
+    "description": "ShopEasy is an online shopping application designed for fast and convenient purchases. Users can browse products, compare prices, and place orders easily. The app provides a smooth checkout experience and secure payment options. ShopEasy focuses on user convenience, offering search filters and personalized recommendations. It is suitable for users who prefer simple and efficient online shopping."
+  },
+  {
+    "id": 8,
+    "name": "NoteKeeper",
+    "photo": "/../assets/app3.webp",
+    "downloads": "2M+",
+    "rating": 4.2,
+    "totalReviews": "180K+",
+    "developedBy": "NoteFlow Apps",
+    "description": "NoteKeeper is a note-taking application that helps users organize ideas, tasks, and reminders. Users can create, edit, and manage notes easily. The app is designed for students, professionals, and everyday users. NoteKeeper focuses on simplicity and productivity, making note management quick and efficient. It is ideal for keeping important information in one place."
+  }
+]
