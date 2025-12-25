@@ -60,7 +60,7 @@ const AppDetail = () => {
            <h1 className='font-semibold text-2xl mb-6 mt-6'>Description</h1>
            <p className='mb-6 text-[#627382 text-[20px]]'>{description}</p>
 
-           <div className='flex justify-center items-center'><button onClick={()=>navigate(-1)} class="btn btn-primary w-50 h-12.5 font-bold text-[20px]">Go Back</button></div>
+           <div className='flex justify-center items-center'><button onClick={()=>navigate(-1)} class="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] w-50 h-12.5 font-bold text-[20px] text-white">Go Back</button></div>
 
         </div>
     );

@@ -81,7 +81,7 @@ const Home = () => {
             <div className='flex justify-center items-center'>
             <button onClick={()=>navigate("/apps")} className="btn 
             bg-linear-to-r from-[#632EE3] to-[#9F62F2]
-             text-white font-bold mt-10 w-36.25 h-12">Show All</button>
+             text-white font-bold mt-10 w-50 h-12 text-[20px]">Show All</button>
             </div>
         </div>
     );
