@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import { useLoaderData, useNavigate } from "react-router";
+import { toast } from "react-toastify";
 
 const AppDetail = () => {
     const [install,setInstall]=useState(false)
 
+    function notify(){
+        toast("Successfully Installed!")
+    }
+
     const handleInstall=()=>{
         setInstall(true)
+        notify()
     }
 
     const navigate=useNavigate()

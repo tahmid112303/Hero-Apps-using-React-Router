@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 import { useLoaderData, useNavigate } from 'react-router';
+import { toast } from 'react-toastify';
 
 const MyAppDetail = () => {
     const [install,setInstall]=useState(false)
 
+    function notify(){
+        toast("Successfully Installed!")
+    }
+
     const handleInstall=()=>{
         setInstall(true)
+        notify()
     }
 
     const navigate=useNavigate()
@@ -53,7 +59,7 @@ const MyAppDetail = () => {
 
            <h1 className='font-semibold text-2xl mb-6 mt-6'>Description</h1>
            <p className='mb-6 text-[#627382 text-[20px]]'>{description}</p>
-           
+
            <div className='flex justify-center items-center'><button onClick={()=>navigate(-1)} class="btn btn-primary w-50 h-12.5 font-bold text-[20px]">Go Back</button></div>
 
         </div>
