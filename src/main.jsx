@@ -5,7 +5,6 @@ import { RouterProvider } from "react-router/dom";
 import './index.css'
 import './App.jsx'
 import Root from './Components/Root';
-import App from './App.jsx';
 import Home from './Components/Home.jsx';
 import MyApps from './Components/MyApps.jsx';
 import AppDetail from './Components/AppDetail.jsx';

@@ -6,7 +6,7 @@ const MyApp = ({data}) => {
     return (
         <div className='w-72 p-6 bg-white rounded-xl cursor-pointer hover:bg-pink-200 hover:font-bold' onClick={()=>navigate(`/apps/${data.id}`)}>
             <div className='flex justify-center items-center'>
-                <img className='w-[250px] h-[250px] rounded-2xl' src={data.photo} alt="" />
+                <img className='w-62.5 h-62.5 rounded-2xl' src={data.photo} alt="" />
             </div>
 
             <div className='text-[#001931] text-[20px] text-center mt-4'>{data.name}</div>

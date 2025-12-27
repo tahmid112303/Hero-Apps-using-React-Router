@@ -1,4 +1,7 @@
 #nav a:hover{
     color: purple;
-    
+}
+
+#nav a{
+    font-size: 1.1em;
 }
