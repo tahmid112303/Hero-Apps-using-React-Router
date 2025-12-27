@@ -1,4 +1,3 @@
-import { Github } from 'lucide-react';
 import React from 'react';
 import './NavBar.css';
 import { NavLink } from 'react-router';
@@ -17,14 +16,14 @@ const NavBar = () => {
                    </div>
 
                    <div id='nav' className='flex gap-8 font-semibold max-sm:flex-col'>
-                      <NavLink to={"home"}>Home</NavLink>
+                      <NavLink to={"/"}>Home</NavLink>
                       <NavLink to={"apps"}>Apps</NavLink>
                    </div>
 
                    <div>
-                   <button onClick={visitGitHub} className="btn btn-primary w-36.25 h-11.25 flex gap-4 justify-center items-center">
-                        <span><img className='h-5 w-5 ' src="/assets/git-logo.png" alt="" /></span>
-                        <span className='font-bold text-[1.05em]'>Contribute</span>
+                   <button onClick={visitGitHub} className="btn btn-primary w-36.25 h-11.25">
+                        <span><img className='h-5 w-5 bg-white rounded-[50%]' src="/assets/git-logo.png" alt="" /></span>
+                        <span className='font-bold'>Contribute</span>
                    </button>
                    </div>
             </div>

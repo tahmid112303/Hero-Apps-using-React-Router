@@ -5,13 +5,22 @@ import { toast } from 'react-toastify';
 const MyAppDetail = () => {
     const [install,setInstall]=useState(false)
 
-    function notify(){
+    function installNotify(){
         toast("Successfully Installed!")
     }
 
+    function uninstallNotify(){
+        toast("Uninstalled")
+    }
+
     const handleInstall=()=>{
-        setInstall(true)
-        notify()
+        setInstall(!install)
+        
+        if(install===true){
+            uninstallNotify()
+        }else{
+            installNotify()
+        }
     }
 
     const navigate=useNavigate()
@@ -53,7 +62,7 @@ const MyAppDetail = () => {
                              text-[40px]'>{totalReviews}</h1>
                         </div>
                     </div>
-                    <button onClick={handleInstall} class="btn w-60 h-12.5 text-white bg-[#00D390] rounded-xl font-semibold text-[20px] mt-4">{install ? "Installed" : "Install Now"}</button>
+                    <button onClick={handleInstall} class="btn w-60 h-12.5 text-white bg-[#00D390] rounded-xl font-semibold text-[20px] mt-4">{install ? "Uninstall" : "Install Now"}</button>
                 </div>
            </div>
 

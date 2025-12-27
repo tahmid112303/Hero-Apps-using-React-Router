@@ -16,11 +16,13 @@ const router=createBrowserRouter([
     path: "/",
     Component: Root,
     children: [
-      { index: true, Component: ErrorPage },
-
-      { path: "home",
+      { index: true, 
         loader: ()=>fetch('TrendingAppData.json'),
-      Component: Home
+        Component: Home 
+      },
+
+      { path: "*",
+        Component: ErrorPage
       },
 
       {
