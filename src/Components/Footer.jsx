@@ -1,13 +1,14 @@
 
 import { LinkedinIcon, LucideFacebook, Twitter } from 'lucide-react';
 import React from 'react';
+import heroLogo from '../assets/logo.png'
 
 const Footer = () => {
     return (
         <div className='h-45.75 w-full bg-[#001931] pt-10 mt-5'>
             <div className='flex justify-between mx-15'>
                 <div className="flex gap-1.75 items-center">
-                    <img className='h-10 w-10' src="/../assets/logo.png" alt="" />
+                    <img className='h-10 w-10' src={heroLogo} alt="" />
                     <span className='font-bold text-white'>HERO.IO</span>
                 </div>
 

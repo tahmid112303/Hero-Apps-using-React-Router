@@ -1,12 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
+import errorLogo from '../assets/error-404.png'
 
 const ErrorPage = () => {
     const navigate=useNavigate()
     return (
         <>
         <div className='flex justify-center items-center'>
-            <img className='max-w-full ' src="/../assets/error-404.png" 
+            <img className='max-w-full ' src={errorLogo}
             alt="Error Page" />
         </div>
 
