@@ -10,6 +10,7 @@ import MyApps from './Components/MyApps.jsx';
 import AppDetail from './Components/AppDetail.jsx';
 import ErrorPage from './Components/ErrorPage.jsx';
 import MyAppDetail from './Components/MyAppDetail.jsx';
+import Installation from './Components/Installation.jsx';
 
 const router=createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router=createBrowserRouter([
     Component: Root,
     children: [
       { index: true, 
-        loader: ()=>fetch('TrendingAppData.json'),
+        loader: ()=>fetch('/TrendingAppData.json'),
         Component: Home 
       },
 
@@ -36,17 +37,29 @@ const router=createBrowserRouter([
       },
 
       {path: "apps",
-      loader: ()=>fetch("AllAppData.json"),
+      loader: ()=>fetch("/AllAppData.json"),
       Component: MyApps},
 
       { path: "apps/:id",
         loader: async({params})=>{
-          const res =await fetch("AllAppData.json");
+          const res =await fetch("/AllAppData.json");
           const data=await res.json();
           return data.find(app => app.id == params.id)
         },
         Component: MyAppDetail
-      }
+      },
+
+      {
+        path: "install/:id",
+        loader: async({params})=>{
+          const res=await fetch("/AllAppData.json");
+          const data=await res.json();
+          return data.find(app =>app.id == params.id)
+        } ,
+        Component: Installation
+      },
+
+      { path: "install", Component: Installation}
     ],
   },
 ]);

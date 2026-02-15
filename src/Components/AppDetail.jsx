@@ -14,7 +14,8 @@ const AppDetail = () => {
     }
 
     const handleInstall=()=>{
-        setInstall(!install)
+        setInstall(true)
+        navigate('/install')
         
         if(install===true){
             uninstallNotify()

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLoaderData, useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
+import Installation from './Installation';
 
 const MyAppDetail = () => {
     const [install,setInstall]=useState(false)
@@ -14,7 +15,8 @@ const MyAppDetail = () => {
     }
 
     const handleInstall=()=>{
-        setInstall(!install)
+        setInstall(true)
+        navigate(`/install/${id}`)
         
         if(install===true){
             uninstallNotify()
@@ -26,9 +28,10 @@ const MyAppDetail = () => {
     const navigate=useNavigate()
 
     const myAppDetail=useLoaderData()
-    const {photo,name,downloads,rating,totalReviews,developedBy,description}=myAppDetail
+    const {id,photo,name,downloads,rating,totalReviews,developedBy,description}=myAppDetail
     return (
-        <div className='my-21 mx-20'>
+        <>
+                    <div className='my-21 mx-20'>
            <div className='flex gap-10'>
                 <div className='w-75 h-75'>
                     <img className='w-75 h-75 rounded-2xl' src={photo} alt="" />
@@ -72,7 +75,8 @@ const MyAppDetail = () => {
            <div className='flex justify-center items-center'><button onClick={()=>navigate(-1)} class="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] w-50 h-12.5 font-bold text-[20px] text-white">Go Back</button></div>
 
         </div>
-    );
+        </>
+);
 };
 
 export default MyAppDetail;
