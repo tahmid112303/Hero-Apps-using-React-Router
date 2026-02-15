@@ -1,3 +1,3 @@
 ## 🚀 Live Demo
 
-https://stirring-tanuki-515d78.netlify.app/
+https://sunny-yeot-043a0d.netlify.app/
