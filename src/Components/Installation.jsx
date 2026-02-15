@@ -53,6 +53,8 @@ const Installation = () => {
 
 </div>
     </div>
+
+    <div className='flex justify-center items-center mt-20'><button onClick={()=>navigate(-1)} class="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] w-50 h-12.5 font-bold text-[20px] text-white">Go Back</button></div>
     </div>
     );
 };
